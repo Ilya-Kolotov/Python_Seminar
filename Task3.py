@@ -16,6 +16,6 @@ numN = InputNumbers('Введите число N:')
 if numN > 0:
     numbers = list(range(-numN, numN+1))
 else:
-    numbers = list(range(-numN, numN-1, -1))
+    numbers = list(range(numN,-numN+1))
 print(numbers)
 
