@@ -29,7 +29,8 @@ import random
 # print(summ(2,3,4,5,6,7))
 
 # summ = lambda a,b: a+b if a>5 else 0
-#
+# print(summ(6,7))
+# #
 # for i in range(10):
 #     print(summ(7,3))
 
