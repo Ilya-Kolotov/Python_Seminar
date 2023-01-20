@@ -42,4 +42,4 @@ def get_mode():
     while mode not in modes:
         print('Такого режима нет. Введите корректный: ')
         mode = input()
-    return mode
+    return int(mode)
